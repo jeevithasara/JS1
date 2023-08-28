@@ -1,0 +1,39 @@
+4).READ ABOUT IP ADDRESS,PORT,HTTP METHODS AND MAC ADDRESS?
+IP ADDRESS:
+
+  AN internet protocol(IP) address is a numerical label assigned to devices connected to a computer network.It serves as a unique identifier,allowing devices to send and receive data across network.IP addresses come in two versions:IPv4(e.g.,192.168.0.1) and IPv6(e.g., 2001:0db8:8a2e:0370:7334).IPv4 addresses are more commonly used.
+
+PORT:
+
+A port is a communication endpoint in a operating system that allows multiple applications or services to use the same physical network connection.ports are identified by port numbers, which range from 0 to 65535. certain port numbers are reserved for specific services(e.g.,port 80 is typically used for HTTP).when a network packet arrives at a device, the port number helps direct the packet to the appropriate application.
+  
+HTTP METHODS:
+
+Hypertext Transfer Protocol(HTTP) is the foundation of data communication on the web.HTTP methods define the actions that can be performed on resources accessed via URLs. the commonly used HTTP methods are:
+-GET: Retrives data from a server
+-POST: Send data to a server to create or update a resource.
+-PUT: Replaces or updates an exiting resource entirely.
+-DELETE: Delete a specified resource.
+-PATCH: Updates a part of a resource.
+-HEAD: Retrives the headers of a resource without fetching the entire content.
+-OPTION: Determines the HTTP methods supported by a server.
+MAC ADDRESS:
+Media  access control(MAC) address is a unique identifier assigned to network interfaces, such as ethernet or Wi-Fi adapters, by the manufacture, it is a hexadecimal number with a length of 12 characters, typically shown in the format  of six pairs of digits separatedby colons(e.g.,01:23:45:67:89:AB).MAC addresses are used at the data link layer of the network protocol stack to ensure data is delivered to the correct device when connected on a local network.
+
+2).WRITE A BLOG ABOUT OBJECTS AND ITS INTERNALS REPRESENTATION IN JAVASCRIPT:
+
+Objects are important datatypes in javascript.Objects are different than primitive data types(i.e.,number,boolean,string etc..) primitive datatypes contain are value but object can hold many values in form of key:value pair;
+
+1).WRITE A BLOG ON DIFFERENCE BETWEEN HTTP1.1 VS HTTP2:
+
+HTTP1.1:
+*Its works on the head textual format.
+*There is head of line blocking that block all the requests behind it untill it doesnot get its all resources.
+*It uses requests resources inlining for use getting multiple pages.
+*it compresses data by itself.
+
+HTTP2:
+*It works on the binary protocol.
+*It allows mulitiplexing so are TCP connection is required for mulitiple requests.
+*It uses push frame server that collects all multiple pages.
+*It uses HPACK for data compression.
